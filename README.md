@@ -22,8 +22,8 @@ Open a terminal in your desired folder (example uses the repo root):
 
 1. Create project folder (if needed)
 ```bash
-mkdir nodejs-integration
-cd nodejs-integration
+mkdir nodejs-psql-crud
+cd nodejs-psql-crud
 ```
 
 2. Init & install
@@ -36,7 +36,7 @@ npx tsc --init
 
 3. Recommended folder structure
 ```
-nodejs-integration/
+nodejs-psql-crud/
 ├─ src/
 │  ├─ db/
 │  │  └─ connection.ts   # postgres pool + connect logic
